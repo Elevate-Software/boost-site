@@ -1,36 +1,7 @@
 import React from 'react';
-import { AnnotationIcon, GlobeAltIcon, LightningBoltIcon, ScaleIcon } from '@heroicons/react/outline'
-import {CurrencyDollarIcon} from "@heroicons/react/solid";
 
-const features = [
-    {
-        name: 'Competitive exchange rates',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: GlobeAltIcon,
-    },
-    {
-        name: 'No hidden fees',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: ScaleIcon,
-    },
-    {
-        name: 'Transfers are instant',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: LightningBoltIcon,
-    },
-    {
-        name: 'Mobile notifications',
-        description:
-            'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.',
-        icon: AnnotationIcon,
-    },
-]
-
-export const GoalsSection = () => (
-    <section className="relative">
+export const NFTSection = () => (
+    <section className="bg-black pb-20 2xl:pb-28 relative">
         <div className="hero-bg-left absolute -bottom-52 left-0 -z-10">
             <svg className="w-full" width="301" height="691" viewBox="0 0 301 691" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
@@ -128,51 +99,22 @@ export const GoalsSection = () => (
                   </svg>
                   </span>
         </div>
-        <div className="py-12 bg-black">
-            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="lg:text-center">
-                    <h2
-                        className="btn-style-2 inline-flex items-center justify-center bg-gray-600 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">ABOUT</h2>
-                    <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-                        A better way to send money
-                    </p>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-                        Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
-                        accusamus quisquam.
-                    </p>
+        <div className="mx-auto container relative z-20">
+            <div className="grid items-center grid-cols-1 lg:grid-cols-5 gap-8">
+                <div className="hero-content xl:pr-20 lg:col-span-3">
+              <span
+                  className="btn-style-2 inline-flex items-center justify-center bg-gray-600 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">Non-Fungible Token</span>
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Boost Coin: The <span className="text-green-600">Future</span> Of DeFi.</h2>
+                    <p className="text-lg md:text-xl leading-tight font-medium text-gray-100 my-6 2xl:my-12">Welcome to Boost, a platform consisting of the latest in Decentralized Financial tools designed by some of the top developers in the world and fueled by Boost Coin, the native cryptocurrency of the Boost ecosystem.</p>
+                    <div className="flex flex-wrap items-center">
+                        <a href="https://t.me/Boost2p0"
+                           className="btn-style-1 inline-flex w-full sm:w-auto items-center justify-center border border-2 border-green-600 text-green-600 2xl:text-xl font-bold rounded-full transition-all duration-500 hover:text-white px-8 py-2 lg:py-3.5 sm:mr-4 mt-2">
+                            Join Telegram
+                        </a>
+                    </div>
                 </div>
-
-                <div className="mt-10">
-                    <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 my-6">
-
-                        <li
-                            className="col-span-1 flex flex-col text-center bg-gray-600 rounded-lg shadow divide-y divide-gray-200"
-                        >
-                            <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
-                                <h3 className="mt-6 text-white font-medium">Boostopia</h3>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
-                            </div>
-                        </li>
-                        <li
-                            className="col-span-1 flex flex-col text-center bg-gray-600 rounded-lg shadow divide-y divide-gray-200"
-                        >
-                            <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
-                                <h3 className="mt-6 text-white font-medium">Play to Earn mobile app</h3>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
-                            </div>
-                        </li>
-                        <li
-                            className="col-span-1 flex flex-col text-center bg-gray-600 rounded-lg shadow divide-y divide-gray-200"
-                        >
-                            <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
-                                <h3 className="mt-6 text-white font-medium">Reward Yielding NFTs</h3>
-                                <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
-                            </div>
-                        </li>
-                    </ul>
+                <div className="lg:col-span-2 aos-init aos-animate" data-aos="fade-up">
+                    <img style={{width: '430px', height: '500px'}} className="max-w-xl hidden lg:block" src="https://cdn.discordapp.com/attachments/913192688327753758/930320973377462272/nft_1.png" alt="title"/>
                 </div>
             </div>
         </div>

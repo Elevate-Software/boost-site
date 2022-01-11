@@ -6,6 +6,8 @@ import {Footer} from "../components/footer/footer";
 import {TokenStats} from "../components/tokenstats/tokenstats";
 import {AboutSection} from "../components/sections/about";
 import {GoalsSection} from "../components/sections/goals";
+import {NFTSection} from "../components/sections/nft";
+import {CommunitySection} from "../components/sections/community";
 
 export default function Home() {
   return (
@@ -15,8 +17,8 @@ export default function Home() {
          <TokenStats />
          <AboutSection />
          <GoalsSection />
-         {/**NFT Section**/}
-         {/**Join the community(CTA)**/}
+         <NFTSection />
+         <CommunitySection />
          <PartnersSection />
          <Footer />
      </main>

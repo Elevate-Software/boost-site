@@ -2,7 +2,7 @@ import React from 'react';
 import {CurrencyDollarIcon} from "@heroicons/react/solid";
 
 export const AboutSection = () => (
-    <section className="bg-gray-900 pb-20 2xl:pb-28 relative">
+    <section className="bg-black pb-20 2xl:pb-28 relative">
         <div className="hero-bg-left absolute -bottom-52 left-0 -z-10">
             <svg className="w-full" width="301" height="691" viewBox="0 0 301 691" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
@@ -116,7 +116,7 @@ export const AboutSection = () => (
                     <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 my-6">
 
                             <li
-                                className="col-span-1 flex flex-col text-center bg-gray-800 rounded-lg shadow divide-y divide-gray-200"
+                                className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                             >
                                 <div className="flex-1 flex flex-col p-8">
                                     <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
@@ -125,7 +125,7 @@ export const AboutSection = () => (
                                 </div>
                             </li>
                         <li
-                            className="col-span-1 flex flex-col text-center bg-gray-800 rounded-lg shadow divide-y divide-gray-200"
+                            className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
@@ -134,7 +134,7 @@ export const AboutSection = () => (
                             </div>
                         </li>
                         <li
-                            className="col-span-1 flex flex-col text-center bg-gray-800 rounded-lg shadow divide-y divide-gray-200"
+                            className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
@@ -143,7 +143,7 @@ export const AboutSection = () => (
                             </div>
                         </li>
                         <li
-                            className="col-span-1 flex flex-col text-center bg-gray-800 rounded-lg shadow divide-y divide-gray-200"
+                            className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
