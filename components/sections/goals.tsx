@@ -137,7 +137,7 @@ export const GoalsSection = () => (
                             className="col-span-1 flex flex-col text-center bg-gray-600 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
+                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                 <h3 className="mt-6 text-white font-medium">Boostopia</h3>
                                 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
                             </div>
@@ -146,7 +146,7 @@ export const GoalsSection = () => (
                             className="col-span-1 flex flex-col text-center bg-gray-600 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
+                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                 <h3 className="mt-6 text-white font-medium">Play to Earn mobile app</h3>
                                 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
                             </div>
@@ -155,7 +155,7 @@ export const GoalsSection = () => (
                             className="col-span-1 flex flex-col text-center bg-gray-600 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
+                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                 <h3 className="mt-6 text-white font-medium">Reward Yielding NFTs</h3>
                                 <p className="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed luctus eget justo et iaculis. Quisque vitae nulla malesuada, auctor arcu vitae, luctus nisi. Sed elementum vitae ligula id imperdiet.</p>
                             </div>

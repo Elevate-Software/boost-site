@@ -107,7 +107,7 @@ export const AboutSection = () => (
                                 className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                             >
                                 <div className="flex-1 flex flex-col p-8">
-                                    <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
+                                    <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                     <h3 className="mt-6 text-white font-medium">Total Tax</h3>
                                     <p className="text-white">There's a 7% total tax.</p>
                                 </div>
@@ -116,7 +116,7 @@ export const AboutSection = () => (
                             className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
+                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                 <h3 className="mt-6 text-white font-medium">Dev Wallet</h3>
                                 <p className="text-white">There's a 1% Dev wallet.</p>
                             </div>
@@ -125,7 +125,7 @@ export const AboutSection = () => (
                             className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
+                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                 <h3 className="mt-6 text-white font-medium">Total Tax</h3>
                                 <p className="text-white">There's a 7% total tax.</p>
                             </div>
@@ -134,7 +134,7 @@ export const AboutSection = () => (
                             className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-teal-400" />
+                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                 <h3 className="mt-6 text-white font-medium">Marketing Wallet</h3>
                                 <p className="text-white">There's a 1% marketing wallet.</p>
                             </div>
