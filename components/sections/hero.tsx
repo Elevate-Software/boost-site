@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const HeroSection = () => (
-    <section className="bg-black pb-20 2xl:pb-28 relative">
+    <section className="bg-black pb-20 2xl:pb-28 pt-16 relative">
         <div className="hero-bg-left absolute -bottom-52 left-0 -z-10">
             <svg className="w-full" width="301" height="691" viewBox="0 0 301 691" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
