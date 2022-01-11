@@ -104,7 +104,7 @@ export const AboutSection = () => (
                     <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 my-6">
 
                             <li
-                                className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
+                                className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
                             >
                                 <div className="flex-1 flex flex-col p-8">
                                     <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
@@ -113,7 +113,7 @@ export const AboutSection = () => (
                                 </div>
                             </li>
                         <li
-                            className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
+                            className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
@@ -122,7 +122,7 @@ export const AboutSection = () => (
                             </div>
                         </li>
                         <li
-                            className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
+                            className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
@@ -131,7 +131,7 @@ export const AboutSection = () => (
                             </div>
                         </li>
                         <li
-                            className="col-span-1 flex flex-col text-center bg-neutral-800 rounded-lg shadow divide-y divide-gray-200"
+                            className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
