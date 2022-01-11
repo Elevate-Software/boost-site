@@ -16,9 +16,9 @@ export default function Home() {
          <HeroSection />
          <TokenStats />
          <AboutSection />
+         <CommunitySection />
          <GoalsSection />
          <NFTSection />
-         <CommunitySection />
          <PartnersSection />
          <Footer />
      </main>
