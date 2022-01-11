@@ -113,8 +113,8 @@ export const HeroSection = () => (
                         </a>
                     </div>
                 </div>
-                <div className="lg:col-span-2 aos-init aos-animate" data-aos="fade-up">
-                    <img style={{width: '430px', height: '500px'}} className="max-w-xl hidden lg:block" src="https://boostco.in/wp-content/uploads/2021/08/Banner-image.png" alt="title"/>
+                <div className="lg:col-span-2 mx-auto">
+                    <img style={{width: '252px', height: '500px'}} className="max-w-xl hidden lg:block" src="https://cdn.discordapp.com/attachments/913192688327753758/930336975200849970/phone_500.png" alt="title"/>
                 </div>
             </div>
         </div>
