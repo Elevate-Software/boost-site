@@ -63,7 +63,7 @@ const resources = [
 ]
 
 export const NavigationMenu = () => (
-    <Popover className="relative bg-gray-900">
+    <Popover className="relative bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -83,11 +83,17 @@ export const NavigationMenu = () => (
                     </Popover.Button>
                 </div>
                 <Popover.Group as="nav" className="hidden md:flex space-x-10">
-                    <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                        Pricing
+                    <a href="#" className="text-base font-medium text-white hover:text-gray-900">
+                        Home
                     </a>
-                    <a href="#" className="text-base font-medium text-gray-500 hover:text-gray-900">
-                        Docs
+                    <a href="#" className="text-base font-medium text-white hover:text-gray-900">
+                       Goals
+                    </a>
+                    <a href="#" className="text-base font-medium text-white hover:text-gray-900">
+                        About
+                    </a>
+                    <a href="#" className="text-base font-medium text-white hover:text-gray-900">
+                        Join
                     </a>
                 </Popover.Group>
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
