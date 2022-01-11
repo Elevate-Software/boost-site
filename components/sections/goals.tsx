@@ -136,7 +136,7 @@ export const GoalsSection = () => (
                     <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-white sm:text-4xl">
                         A better way to send money
                     </p>
-                    <p className="mt-4 max-w-2xl text-xl text-gray-200 lg:mx-auto">
+                    <p className="mt-4 max-w-2xl text-xl text-gray-400 lg:mx-auto">
                         Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam voluptatum cupiditate veritatis in
                         accusamus quisquam.
                     </p>

@@ -7,25 +7,25 @@ export const TokenStats = () => (
                 <div className="grid grid-cols-2 gap-8 md:grid-cols-6 lg:grid-cols-4">
                     <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                         <div className="px-4 py-5 overflow-hidden sm:p-6">
-                            <div className="text-sm font-medium text-white truncate">Supply</div>
+                            <div className="text-sm font-medium text-gray-400 truncate">Supply</div>
                             <div className="mt-1 text-3xl font-semibold text-white">2,000,000</div>
                         </div>
                     </div>
                     <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                         <div className="px-4 py-5 overflow-hidden sm:p-6">
-                            <div className="text-sm font-medium text-white truncate">Starting Market Cap</div>
+                            <div className="text-sm font-medium text-gray-400 truncate">Starting Market Cap</div>
                             <div className="mt-1 text-3xl font-semibold text-white">$5,200</div>
                         </div>
                     </div>
                     <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                         <div className="px-4 py-5 overflow-hidden sm:p-6">
-                            <div className="text-sm font-medium text-white truncate">Stealth Launch</div>
+                            <div className="text-sm font-medium text-gray-400 truncate">Stealth Launch</div>
                             <div className="mt-1 text-3xl font-semibold text-white">1/14/22</div>
                         </div>
                     </div>
                     <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
                         <div className="px-4 py-5 overflow-hidden sm:p-6">
-                            <div className="text-sm font-medium text-white truncate">Starting Price</div>
+                            <div className="text-sm font-medium text-gray-400 truncate">Starting Price</div>
                             <div className="mt-1 text-3xl font-semibold text-white">$0.50</div>
                         </div>
                     </div>

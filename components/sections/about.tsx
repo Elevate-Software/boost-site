@@ -106,7 +106,7 @@ export const AboutSection = () => (
               <span
                   className="btn-style-2 inline-flex items-center justify-center bg-gray-800 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">ABOUT</span>
                     <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Smart and Secure Way to Invest In <span className="text-teal-400">Crypto</span>.</h2>
-                    <p className="text-lg md:text-xl leading-tight font-medium text-gray-100 my-6 2xl:my-12">
+                    <p className="text-lg md:text-xl leading-tight font-medium text-gray-400 my-6 2xl:my-12">
                         With a state of the art DEX (Decentralized Exchange) and numerous projects in development Boost is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics and passive income rewards, ensuring Boost is one of the most decentralized cryptocurrencies in the world.
                     </p>
                 </div>
