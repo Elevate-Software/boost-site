@@ -106,12 +106,6 @@ export const NFTSection = () => (
                   className="btn-style-2 inline-flex items-center justify-center bg-gray-600 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">Non-Fungible Token</span>
                     <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Boost Coin: The <span className="text-green-600">Future</span> Of DeFi.</h2>
                     <p className="text-lg md:text-xl leading-tight font-medium text-gray-400 my-6 2xl:my-12">Welcome to Boost, a platform consisting of the latest in Decentralized Financial tools designed by some of the top developers in the world and fueled by Boost Coin, the native cryptocurrency of the Boost ecosystem.</p>
-                    <div className="flex flex-wrap items-center">
-                        <a href="https://t.me/Boost2p0"
-                           className="btn-style-1 inline-flex w-full sm:w-auto items-center justify-center border border-2 border-green-600 text-green-600 2xl:text-xl font-bold rounded-full transition-all duration-500 hover:text-white px-8 py-2 lg:py-3.5 sm:mr-4 mt-2">
-                            Join Telegram
-                        </a>
-                    </div>
                 </div>
                 <div className="lg:col-span-2 aos-init aos-animate" data-aos="fade-up">
                     <img style={{width: '430px', height: '500px'}} className="max-w-xl hidden lg:block" src="https://cdn.discordapp.com/attachments/913192688327753758/930320973377462272/nft_1.png" alt="title"/>
