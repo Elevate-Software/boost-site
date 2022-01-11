@@ -1,5 +1,7 @@
 import React from 'react';
 import {CurrencyDollarIcon} from "@heroicons/react/solid";
+import {CircleShape} from "../shapes/circle";
+import {DiamondShape} from "../shapes/diamond";
 
 export const AboutSection = () => (
     <section className="bg-black pb-20 2xl:pb-28 relative">
@@ -69,35 +71,21 @@ export const AboutSection = () => (
         </div>
         <div className="absolute z-10 hidden xl:block opacity-25 2xl:opacity-100 top-0 bottom-0 right-0 left-0">
 
-            <span className="animate-2 absolute left-28 bottom-52"><svg width="20" height="20" viewBox="0 0 20 20"
-                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="10" cy="10" r="10" fill="#14B8A6"/>
-                  </svg>
+            <span className="animate-2 absolute left-28 bottom-52">
+                <CircleShape />
                   </span>
-            <span className="animate-3 absolute left-32 top-40"><svg width="38" height="38" viewBox="0 0 38 38"
-                                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" clipRule="evenodd"
-                        d="M0.651129 19.1367C10.928 19.0878 19.2461 10.8072 19.2657 0.592236C19.2849 10.6462 27.3431 18.8262 37.3956 19.1283L37.3951 19.1451C27.5222 19.442 19.5732 27.3379 19.2744 37.1447C19.2686 37.1449 19.2628 37.1451 19.257 37.1453C18.9536 27.1781 10.7477 19.1847 0.651129 19.1367ZM0.46822 19.1367C0.311684 19.1359 0.155604 19.1333 0 19.1288C0.000156532 19.134 0.00031529 19.1393 0.000476273 19.1446C0.155922 19.1401 0.311844 19.1374 0.46822 19.1367ZM19.2738 0.000481984C19.2687 0.172956 19.266 0.34602 19.2657 0.519642C19.2653 0.345857 19.2626 0.172632 19.2575 0L19.2738 0.000481984Z"
-                        fill="#14B8A6"/>
-                  </svg>
+            <span className="animate-3 absolute left-32 top-40">
+                <DiamondShape />
                   </span>
-            <span className="animate-2 absolute left-96 top-20"><svg width="20" height="20" viewBox="0 0 20 20"
-                                                                     fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="10" cy="10" r="10" fill="#14B8A6"/>
-                  </svg>
+            <span className="animate-2 absolute left-96 top-20">
+                <CircleShape />
                   </span>
 
-            <span className="animate-1 absolute right-52 top-60"><svg width="38" height="38" viewBox="0 0 38 38"
-                                                                      fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fillRule="evenodd" clipRule="evenodd"
-                        d="M0.651129 19.1367C10.928 19.0878 19.2461 10.8072 19.2657 0.592236C19.2849 10.6462 27.3431 18.8262 37.3956 19.1283L37.3951 19.1451C27.5222 19.442 19.5732 27.3379 19.2744 37.1447C19.2686 37.1449 19.2628 37.1451 19.257 37.1453C18.9536 27.1781 10.7477 19.1847 0.651129 19.1367ZM0.46822 19.1367C0.311684 19.1359 0.155604 19.1333 0 19.1288C0.000156532 19.134 0.00031529 19.1393 0.000476273 19.1446C0.155922 19.1401 0.311844 19.1374 0.46822 19.1367ZM19.2738 0.000481984C19.2687 0.172956 19.266 0.34602 19.2657 0.519642C19.2653 0.345857 19.2626 0.172632 19.2575 0L19.2738 0.000481984Z"
-                        fill="#14B8A6"/>
-                  </svg>
+            <span className="animate-1 absolute right-16 top-60">
+                <DiamondShape />
                   </span>
-            <span className="animate-3 absolute right-16 bottom-32"><svg width="20" height="20" viewBox="0 0 20 20"
-                                                                         fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="10" cy="10" r="10" fill="#14B8A6"/>
-                  </svg>
+            <span className="animate-3 absolute right-16 bottom-32">
+                <CircleShape />
                   </span>
         </div>
         <div className="mx-auto container relative z-20">
@@ -105,7 +93,7 @@ export const AboutSection = () => (
                 <div className="hero-content xl:pr-20 lg:col-span-3">
               <span
                   className="btn-style-2 inline-flex items-center justify-center bg-gray-800 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">ABOUT</span>
-                    <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Smart and Secure Way to Invest In <span className="text-teal-400">Crypto</span>.</h2>
+                    <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Smart and Secure Way to Invest In <span className="text-green-600">Crypto</span>.</h2>
                     <p className="text-lg md:text-xl leading-tight font-medium text-gray-400 my-6 2xl:my-12">
                         With a state of the art DEX (Decentralized Exchange) and numerous projects in development Boost is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics and passive income rewards, ensuring Boost is one of the most decentralized cryptocurrencies in the world.
                     </p>
