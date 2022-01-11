@@ -15,8 +15,8 @@ export default function Home() {
          <NavigationMenu />
          <HeroSection />
          <TokenStats />
-         <AboutSection />
          <CommunitySection />
+         <AboutSection />
          <GoalsSection />
          <NFTSection />
          <PartnersSection />
