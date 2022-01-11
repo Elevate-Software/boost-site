@@ -31,7 +31,8 @@ export const AboutSection = () => (
                   className="btn-style-2 inline-flex items-center justify-center bg-gray-800 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">ABOUT</span>
                     <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Smart and Secure Way to Invest In <span className="text-green-600">Crypto</span>.</h2>
                     <p className="text-lg md:text-xl leading-tight font-medium text-gray-400 my-6 2xl:my-12">
-                        With a state of the art DEX (Decentralized Exchange) and numerous projects in development Boost is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics and passive income rewards, ensuring Boost is one of the most decentralized cryptocurrencies in the world.
+                        {/* With a state of the art DEX (Decentralized Exchange) and numerous projects in development Boost is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics and passive income rewards, ensuring Boost is one of the most decentralized cryptocurrencies in the world. */}
+                        Boost 2.0, an ERC-20 utility token, is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics from an algorithmic smart contract that provides the foundation of Boost2.0. 
                     </p>
                 </div>
                 <div className="lg:col-span-2 aos-init aos-animate" data-aos="fade-up">
@@ -45,7 +46,7 @@ export const AboutSection = () => (
                                 <div className="flex-1 flex flex-col p-8">
                                     <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                     <h3 className="mt-6 text-white font-medium">Total Tax</h3>
-                                    <p className="text-white">There's a 7% total tax.</p>
+                                    <p className="text-gray-300">7%</p>
                                 </div>
                             </li>
                         <li
@@ -54,7 +55,7 @@ export const AboutSection = () => (
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
                                 <h3 className="mt-6 text-white font-medium">Dev Wallet</h3>
-                                <p className="text-white">There's a 1% Dev wallet.</p>
+                                <p className="text-gray-300">1%</p>
                             </div>
                         </li>
                         <li
@@ -62,8 +63,8 @@ export const AboutSection = () => (
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
-                                <h3 className="mt-6 text-white font-medium">Total Tax</h3>
-                                <p className="text-white">There's a 7% total tax.</p>
+                                <h3 className="mt-6 text-white font-medium">Buyback</h3>
+                                <p className="text-gray-300">1%</p>
                             </div>
                         </li>
                         <li
@@ -71,8 +72,8 @@ export const AboutSection = () => (
                         >
                             <div className="flex-1 flex flex-col p-8">
                                 <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
-                                <h3 className="mt-6 text-white font-medium">Marketing Wallet</h3>
-                                <p className="text-white">There's a 1% marketing wallet.</p>
+                                <h3 className="mt-6 text-white font-medium">Use Wallet</h3>
+                                <p className="text-gray-300">5%</p>
                             </div>
                         </li>
                     </ul>
