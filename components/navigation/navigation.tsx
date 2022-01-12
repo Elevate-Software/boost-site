@@ -63,7 +63,7 @@ const resources = [
 ]
 
 export const NavigationMenu = () => (
-    <Popover className="relative bg-black">
+    <Popover className="sticky top-0 z-50 relative bg-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6">
             <div className="flex justify-between items-center py-6 md:justify-start md:space-x-10">
                 <div className="flex justify-start lg:w-0 lg:flex-1">
