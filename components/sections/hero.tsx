@@ -23,7 +23,7 @@ export const HeroSection = () => (
                  <CircleShape />
                   </span>
         </div>
-        <div className="mx-auto container relative z-20">
+        <div className="mx-auto container relative">
             <div className="grid items-center grid-cols-1 lg:grid-cols-5 gap-8">
                 <div className="hero-content xl:pr-20 lg:col-span-3">
               <span
