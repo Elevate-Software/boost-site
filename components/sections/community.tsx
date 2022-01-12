@@ -15,6 +15,10 @@ export const CommunitySection = () => (
                     <div className="inline-flex rounded-md shadow">
                         <button
                             type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://instagram.com/boostcoin2.0?utm_medium=copy_link';
+                            }}
                             className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-500"
                         >
                             <svg className="mr-2" width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -30,6 +34,10 @@ export const CommunitySection = () => (
                     <div className="ml-3 inline-flex">
                         <button
                             type="button"
+                            onClick={(e) => {
+                                e.preventDefault();
+                                window.location.href='https://t.me/Boost2p0';
+                            }}
                             className="inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-500"
                         >
                             <svg className="mr-2" width="27" height="23" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
