@@ -34,49 +34,32 @@ export const AboutSection = () => (
                         {/* With a state of the art DEX (Decentralized Exchange) and numerous projects in development Boost is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics and passive income rewards, ensuring Boost is one of the most decentralized cryptocurrencies in the world. */}
                         Boost 2.0, an ERC-20 utility token, is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics from an algorithmic smart contract that provides the foundation of Boost2.0.
                     </p>
-                </div>
-                <div className="lg:col-span-2 aos-init aos-animate" data-aos="fade-up">
-                    {/**Content here **/}
 
-                    <ul role="list" className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-2 my-6">
-
-                            <li
-                                className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
-                            >
-                                <div className="flex-1 flex flex-col p-8">
-                                    <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
-                                    <h3 className="mt-6 text-white font-medium">Total Tax</h3>
-                                    <p className="text-gray-300">7%</p>
+                    <div className="token-info">
+                        <div className="mt-5 grid grid-cols-1 gap-5 sm:grid-cols-4">
+                                <div className="px-4 py-5 border-2 border-gray-600 shadow rounded-lg overflow-hidden sm:p-6">
+                                    <div className="text-sm font-medium text-white truncate">Total Tax</div>
+                                    <div className="mt-1 text-3xl font-semibold text-gray-400">7%</div>
                                 </div>
-                            </li>
-                        <li
-                            className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
-                        >
-                            <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
-                                <h3 className="mt-6 text-white font-medium">Dev Wallet</h3>
-                                <p className="text-gray-300">1%</p>
+                            <div className="px-4 py-5 border-2 border-gray-600 shadow rounded-lg overflow-hidden sm:p-6">
+                                <div className="text-sm font-medium text-white truncate">Dev Wallet</div>
+                                <div className="mt-1 text-3xl font-semibold text-gray-400">1%</div>
                             </div>
-                        </li>
-                        <li
-                            className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
-                        >
-                            <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
-                                <h3 className="mt-6 text-white font-medium">Buyback</h3>
-                                <p className="text-gray-300">1%</p>
+                            <div className="px-4 py-5 border-2 border-gray-600 shadow rounded-lg overflow-hidden sm:p-6">
+                                <div className="text-sm font-medium text-white truncate">Buy Back</div>
+                                <div className="mt-1 text-3xl font-semibold text-gray-400">1%</div>
                             </div>
-                        </li>
-                        <li
-                            className="col-span-1 flex flex-col text-center rounded-lg shadow divide-y divide-gray-200"
-                        >
-                            <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
-                                <h3 className="mt-6 text-white font-medium">Use Wallet</h3>
-                                <p className="text-gray-300">5%</p>
+                            <div className="px-4 py-5 border-2 border-gray-600 shadow rounded-lg overflow-hidden sm:p-6">
+                                <div className="text-sm font-medium text-white truncate">Use Wallet</div>
+                                <div className="mt-1 text-3xl font-semibold text-gray-400">1%</div>
                             </div>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <div className="lg:col-span-2 mx-auto" data-aos="fade-up">
+                    {/**Content here **/}
+                    <img style={{height: '460px'}} className="max-w-xl hidden lg:block" src="https://cdn.discordapp.com/attachments/913192688327753758/930642054835490927/logo3.jpg" alt="title"/>
                 </div>
             </div>
         </div>
