@@ -1,8 +1,26 @@
 import React from 'react';
+import {CircleShape} from "../shapes/circle";
+import {DiamondShape} from "../shapes/diamond";
 
 export const CommunitySection = () => (
     <section className="hero-area relative">
         <div className="bg-black pb-20 2xl:pb-28 pt-16 relative">
+            <div className="absolute z-10 hidden xl:block opacity-25 2xl:opacity-100 top-0 bottom-0 right-0 left-0">
+
+                <span className="animate-3 absolute left-32 top-40">
+                <DiamondShape />
+                  </span>
+                <span className="animate-2 absolute left-96 top-20">
+                <CircleShape />
+                  </span>
+
+                <span className="animate-1 absolute right-52 top-60">
+                <DiamondShape />
+                  </span>
+                <span className="animate-3 absolute right-16 bottom-32">
+                <CircleShape />
+                  </span>
+            </div>
             <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                 {/* <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
                     <span className="block">Ready to dive in?</span>
