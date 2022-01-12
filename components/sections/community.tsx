@@ -4,10 +4,11 @@ export const CommunitySection = () => (
     <section className="hero-area relative">
         <div className="bg-black pb-20 2xl:pb-28 pt-16 relative">
             <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-                <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
-                    {/* <span className="block">Ready to dive in?</span> */}
+                {/* <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
+                    <span className="block">Ready to dive in?</span>
                     <span className="block">Join our community today!</span>
-                </h2>
+                </h2> */}
+                <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Join our <span className="text-green-600">Community</span> today!</h2>
                 <div className="mt-8 flex justify-center">
                     <div className="inline-flex rounded-md shadow">
                         <button
