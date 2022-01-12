@@ -92,7 +92,7 @@ export const GoalsSection = () => (
                             <div className="flex-1 flex flex-col p-8">
                                 <img className="w-72 h-56 flex-shrink-0 mx-auto" src="https://cdn.discordapp.com/attachments/913192688327753758/930652129058779156/nfts1.png" alt="title"/>
                                 <h3 className="mt-6 text-white font-medium">Reward Yielding NFTs</h3>
-                                <p className="text-gray-300">There will be NFTTTTTTS</p>
+                                <p className="text-gray-300">We currently have NFTs in motion and will be released to the community shortly! It's one of the first pieces of utility we plan to offer, with huge rewards and passive tokens available to NFT holders.</p>
                             </div>
                         </li>
                     </ul>
