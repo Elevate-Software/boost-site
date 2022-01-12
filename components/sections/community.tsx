@@ -2,7 +2,7 @@ import React from 'react';
 
 export const CommunitySection = () => (
     <section className="hero-area relative">
-        <div className="bg-black">
+        <div className="bg-black pb-20 2xl:pb-28 pt-16 relative">
             <div className="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
                 <h2 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl">
                     {/* <span className="block">Ready to dive in?</span> */}

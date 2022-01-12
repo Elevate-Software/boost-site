@@ -32,7 +32,7 @@ const features = [
 ]
 
 export const GoalsSection = () => (
-    <section className="relative">
+    <section className="bg-black pb-20 2xl:pb-28 pt-16 relative">
         <div className="absolute z-10 hidden xl:block opacity-25 2xl:opacity-100 top-0 bottom-0 right-0 left-0">
 
             <span className="animate-2 absolute left-28 bottom-52">
