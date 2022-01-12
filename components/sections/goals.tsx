@@ -72,7 +72,7 @@ export const GoalsSection = () => (
                             className="col-span-1 flex flex-col text-center border-2 border-gray-600 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
+                                <img className="w-72 h-56 flex-shrink-0 mx-auto" src="https://cdn.discordapp.com/attachments/913192688327753758/930650821731950602/meta1.png" alt="title"/>
                                 <h3 className="mt-6 text-white font-medium">Boostopia</h3>
                                 <p className="text-gray-300">Our team plans to bring massive utility to Boost2.0 through the development of our very own Metaverse, Boostopia. This will provide a launchpad for huge potential in the future as we continue to build.</p>
                             </div>
@@ -81,7 +81,7 @@ export const GoalsSection = () => (
                             className="col-span-1 flex flex-col text-center border-2 border-gray-600 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
+                                <img className="w-72 h-56 flex-shrink-0 mx-auto" src="https://cdn.discordapp.com/attachments/913192688327753758/930651458490224680/app1.png" alt="title"/>
                                 <h3 className="mt-6 text-white font-medium">Play to Earn Mobile App</h3>
                                 <p className="text-gray-300">The Boost team is pushing forward to create a play-to-earn mobile app for iOS allowing our holders to earn tokens through a mobile game involving our exclusive NFTs.</p>
                             </div>
@@ -90,7 +90,7 @@ export const GoalsSection = () => (
                             className="col-span-1 flex flex-col text-center border-2 border-gray-600 rounded-lg shadow divide-y divide-gray-200"
                         >
                             <div className="flex-1 flex flex-col p-8">
-                                <CurrencyDollarIcon className="w-32 h-32 flex-shrink-0 mx-auto rounded-full text-green-600" />
+                                <img className="w-72 h-56 flex-shrink-0 mx-auto" src="https://cdn.discordapp.com/attachments/913192688327753758/930652129058779156/nfts1.png" alt="title"/>
                                 <h3 className="mt-6 text-white font-medium">Reward Yielding NFTs</h3>
                                 <p className="text-gray-300">There will be NFTTTTTTS</p>
                             </div>
