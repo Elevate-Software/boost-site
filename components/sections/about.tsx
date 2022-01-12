@@ -42,16 +42,16 @@ export const AboutSection = () => (
                                     <div className="mt-1 text-3xl font-semibold text-gray-400">7%</div>
                                 </div>
                             <div className="px-4 py-5 border-2 border-gray-600 shadow rounded-lg overflow-hidden sm:p-6">
-                                <div className="text-sm font-medium text-white truncate">Dev Wallet</div>
-                                <div className="mt-1 text-3xl font-semibold text-gray-400">1%</div>
+                                <div className="text-sm font-medium text-white truncate">Marketing</div>
+                                <div className="mt-1 text-3xl font-semibold text-gray-400">5%</div>
                             </div>
                             <div className="px-4 py-5 border-2 border-gray-600 shadow rounded-lg overflow-hidden sm:p-6">
                                 <div className="text-sm font-medium text-white truncate">Buy Back</div>
                                 <div className="mt-1 text-3xl font-semibold text-gray-400">1%</div>
                             </div>
                             <div className="px-4 py-5 border-2 border-gray-600 shadow rounded-lg overflow-hidden sm:p-6">
-                                <div className="text-sm font-medium text-white truncate">Marketing</div>
-                                <div className="mt-1 text-3xl font-semibold text-gray-400">5%</div>
+                                <div className="text-sm font-medium text-white truncate">Dev Tax</div>
+                                <div className="mt-1 text-3xl font-semibold text-gray-400">1%</div>
                             </div>
                         </div>
                     </div>
