@@ -83,16 +83,16 @@ export const NavigationMenu = () => (
                     </Popover.Button>
                 </div>
                 <Popover.Group as="nav" className="hidden md:flex space-x-10">
-                    <a href="#" className="text-base font-medium text-white hover:text-gray-300">
+                    <a href="#home" className="text-base font-medium text-white hover:text-gray-300">
                         Home
                     </a>
-                    <a href="#" className="text-base font-medium text-white hover:text-gray-300">
+                    <a href="#goals" className="text-base font-medium text-white hover:text-gray-300">
                        Goals
                     </a>
-                    <a href="#" className="text-base font-medium text-white hover:text-gray-300">
+                    <a href="#about" className="text-base font-medium text-white hover:text-gray-300">
                         About
                     </a>
-                    <a href="#" className="text-base font-medium text-white hover:text-gray-300">
+                    <a href="#join" className="text-base font-medium text-white hover:text-gray-300">
                         Join
                     </a>
                 </Popover.Group>
@@ -136,13 +136,13 @@ export const NavigationMenu = () => (
                         </div>
                         <div className="mt-6">
                             <nav className="grid gap-y-8">
-                                    <a href="" className="-m-3 p-3 flex items-center rounded-md">
+                                    <a href="#home" className="-m-3 p-3 flex items-center rounded-md">
                                         <span className="ml-3 text-base font-medium text-white hover:text-gray-300">Home</span>
                                     </a>
-                                <a href="" className="-m-3 p-3 flex items-center rounded-md">
+                                <a href="#goals" className="-m-3 p-3 flex items-center rounded-md">
                                     <span className="ml-3 text-base font-medium text-white hover:text-gray-300">Goals</span>
                                 </a>
-                                <a href="" className="-m-3 p-3 flex items-center rounded-md">
+                                <a href="#about" className="-m-3 p-3 flex items-center rounded-md">
                                     <span className="ml-3 text-base font-medium text-white hover:text-gray-300">About</span>
                                 </a>
                             </nav>

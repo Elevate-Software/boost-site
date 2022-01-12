@@ -3,7 +3,7 @@ import {DiamondShape} from "../shapes/diamond";
 import {CircleShape} from "../shapes/circle";
 
 export const HeroSection = () => (
-    <section className="bg-black pb-20 2xl:pb-28 pt-16 relative">
+    <section className="bg-black pb-20 2xl:pb-28 pt-16 relative" id="home">
         <div className="absolute hidden xl:block opacity-25 2xl:opacity-100 top-0 bottom-0 right-0 left-0">
 
             <span className="animate-2 absolute left-28 bottom-52">
