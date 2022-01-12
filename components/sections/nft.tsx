@@ -27,7 +27,7 @@ export const NFTSection = () => (
             <div className="grid items-center grid-cols-1 lg:grid-cols-5 gap-8">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:col-span-3">
               <span
-                  className="btn-style-2 inline-flex items-center justify-center bg-gray-600 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">Non-Fungible Token</span>
+                  className="btn-style-2 inline-flex items-center justify-center bg-gray-800 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">Non-Fungible Token</span>
                     <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Reward yielding <span className="text-green-600">NFTs</span>.</h2>
                     <p className="text-lg md:text-xl leading-tight font-medium text-gray-400 my-6 2xl:my-12">Welcome to Boost, a platform consisting of the latest in Decentralized Financial tools designed by some of the top developers in the world and fueled by Boost Coin, the native cryptocurrency of the Boost ecosystem.</p>
                 </div>
