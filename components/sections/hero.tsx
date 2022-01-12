@@ -31,7 +31,9 @@ export const HeroSection = () => (
                     <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Boost 2.0: The <span className="text-green-600">Future</span> Of DeFi.</h2>
                     <p className="text-lg md:text-xl leading-tight font-medium text-gray-400 my-6 2xl:my-12">Welcome to Boost 2.0, a platform consisting of the latest in Decentralized Financial tools designed by some of the top developers in the world and fueled by Boost Coin 2.0, the native cryptocurrency of Boostopia Metaverse Ecosystem.</p>
                     <div className="flex flex-wrap items-center">
-                        <a href="https://t.me/Boost2p0"
+                        <a onClick={() => 
+                                window.open("https://t.me/Boost2p0", "_blank")
+                            }
                            className="btn-style-1 inline-flex w-full sm:w-auto items-center justify-center border border-2 border-green-600 text-green-600 2xl:text-xl font-bold rounded-full transition-all duration-500 hover:text-white px-8 py-2 lg:py-3.5 sm:mr-4 mt-2">
                             Join Telegram
                         </a>
