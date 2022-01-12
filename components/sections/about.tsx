@@ -26,13 +26,13 @@ export const AboutSection = () => (
         </div>
         <div className="mx-auto container relative z-20">
             <div className="grid items-center grid-cols-1 lg:grid-cols-5 gap-8">
-                <div className="hero-content xl:pr-20 lg:col-span-3">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:col-span-3">
               <span
                   className="btn-style-2 inline-flex items-center justify-center bg-gray-800 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">ABOUT</span>
                     <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Smart and Secure Way to Invest In <span className="text-green-600">Crypto</span>.</h2>
                     <p className="text-lg md:text-xl leading-tight font-medium text-gray-400 my-6 2xl:my-12">
                         {/* With a state of the art DEX (Decentralized Exchange) and numerous projects in development Boost is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics and passive income rewards, ensuring Boost is one of the most decentralized cryptocurrencies in the world. */}
-                        Boost 2.0, an ERC-20 utility token, is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics from an algorithmic smart contract that provides the foundation of Boost2.0. 
+                        Boost 2.0, an ERC-20 utility token, is poised to become one of the biggest names in crypto. Using our advanced tokenomics, our token holders will benefit from anti-whale mechanics from an algorithmic smart contract that provides the foundation of Boost2.0.
                     </p>
                 </div>
                 <div className="lg:col-span-2 aos-init aos-animate" data-aos="fade-up">

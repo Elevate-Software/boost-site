@@ -25,7 +25,7 @@ export const HeroSection = () => (
         </div>
         <div className="mx-auto container relative">
             <div className="grid items-center grid-cols-1 lg:grid-cols-5 gap-8">
-                <div className="hero-content xl:pr-20 lg:col-span-3">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:col-span-3">
               <span
                   className="btn-style-2 inline-flex items-center justify-center bg-gray-800 text-white text-sm lg:text-base font-medium rounded transition-all duration-500 px-4 py-2 mb-2">WELCOME</span>
                     <h2 className="text-3xl lg:text-4xl 2xl:text-6xl leading-tight font-bold text-white">Boost 2.0: The <span className="text-green-600">Future</span> Of DeFi.</h2>
