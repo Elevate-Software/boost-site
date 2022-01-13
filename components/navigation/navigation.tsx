@@ -39,6 +39,9 @@ export const NavigationMenu = () => (
                 <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
                     <a
                         href="#"
+                        onClick={() => 
+                            window.open("https://www.dextools.io/app/ether/pair-explorer/0x6a08e2f7eacbf089e15e892b663394d48a97345f", "_blank")
+                        }
                         className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-green-600 hover:bg-green-500"
                     >
                         Buy Now

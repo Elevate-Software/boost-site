@@ -37,6 +37,12 @@ export const HeroSection = () => (
                            className="btn-style-1 inline-flex w-full sm:w-auto items-center justify-center border border-2 border-green-600 text-green-600 2xl:text-xl font-bold rounded-full transition-all duration-500 hover:text-white px-8 py-2 lg:py-3.5 sm:mr-4 mt-2">
                             Join Telegram
                         </a>
+                        <a onClick={() => 
+                                window.open("https://www.dextools.io/app/ether/pair-explorer/0x6a08e2f7eacbf089e15e892b663394d48a97345f", "_blank")
+                            }
+                           className="btn-style-1 inline-flex w-full sm:w-auto items-center justify-center border border-2 border-green-600 text-green-600 2xl:text-xl font-bold rounded-full transition-all duration-500 hover:text-white px-8 py-2 lg:py-3.5 sm:mr-4 mt-2">
+                            Live Chart
+                        </a>
                     </div>
                 </div>
                 <div className="lg:col-span-2 mx-auto">
