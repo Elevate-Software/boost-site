@@ -20,7 +20,7 @@ export const TokenStats = () => (
                     <div className="col-span-1 flex justify-center md:col-span-2 lg:col-span-1">
                         <div className="px-4 py-5 overflow-hidden sm:p-6">
                             <div className="text-sm font-medium text-gray-400 truncate">Launch</div>
-                            <div className="mt-1 text-3xl font-semibold text-white">TBA</div>
+                            <div className="mt-1 text-3xl font-semibold text-white">SOON</div>
                         </div>
                     </div>
                     <div className="col-span-1 flex justify-center md:col-span-3 lg:col-span-1">
